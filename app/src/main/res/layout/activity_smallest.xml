@@ -1,9 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".smallest">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:stretchColumns="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:text="Enter first num"/>
+        <EditText android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/num1"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:text="Enter 2nd num"/>
+        <EditText android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/num2"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView></TextView>
+        <Button
+            android:text="Find largest"
+            android:layout_marginRight="100dp"
+            android:id="@+id/findlarge"/>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView/>
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textAlignment="gravity"
+            android:id="@+id/printlarge"/>
+
+    </TableRow>
+
+
+</TableLayout>
