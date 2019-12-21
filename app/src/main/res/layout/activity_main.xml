@@ -1,0 +1,26 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/largest"
+        android:textSize="15dp"
+        android:text="Largest"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smallest"
+        android:textSize="15dp"
+        android:text="Smallest"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OddEven"
+        android:textSize="15dp"
+        android:text="Odd or Even"/>
+
+</LinearLayout>
