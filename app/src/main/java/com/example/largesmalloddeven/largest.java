@@ -37,7 +37,7 @@ public class largest extends AppCompatActivity
 
                 if(a>b)
                     t1.setText(a+"  is large");
-                else 
+                else
                     t1.setText(b+"  is large");
             }
         });
